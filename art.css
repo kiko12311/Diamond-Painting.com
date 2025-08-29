@@ -1,0 +1,169 @@
+.glavennaslov{
+    font-style:italic;
+    font-family:'Arial Narrow Bold', sans-serif;
+    color:rgb(75, 204, 255);
+    text-align:center;
+    font-size:50px;
+}
+
+.crtezi1{
+    display:flex;
+    justify-content: space-evenly;
+}
+
+.prvc{
+    display:flex;
+    justify-content: space-around;
+    height:500px;
+    width:300px;
+    background-color: rgb(192, 237, 255);
+}
+.prvcc{
+    margin-top:20px;
+    background-color: white;
+    height: 250px;
+    width:  250px;
+}
+.slika1{
+    height:250px;
+    width:250px;
+}
+.ime{
+    font-size: 30px;
+    font-weight: 700;
+}
+
+
+.vtorc{
+    display:flex;
+    justify-content: space-around;
+    height:500px;
+    width:300px;
+    background-color: rgb(192, 237, 255);;
+}
+.vtorcc{
+    margin-top:20px;
+    background-color: white;
+    height: 300px;
+    width:  250px;
+}
+.slika2{
+    height:300px;
+    width:250px;
+}
+.ime1{
+    font-size: 30px;
+    font-weight: 700;
+}
+
+
+.tretc{
+    display:flex;
+    justify-content: space-around;
+    height:500px;
+    width:300px;
+    background-color: rgb(192, 237, 255);;
+}
+.tretcc{
+    margin-top:20px;
+    background-color: white;
+    height: 250px;
+    width:  250px;
+}
+.slika3{
+    height:300px;
+    width:250px;
+}
+.ime2{
+    font-size: 30px;
+    font-weight: 700;
+}
+
+
+.cetvrtc{
+    display:flex;
+    justify-content: space-around;
+    height:500px;
+    width:300px;
+    background-color: rgb(0, 4, 255);
+}
+.cetvrtcc{
+    margin-top:20px;
+    background-color: white;
+    height: 250px;
+    width:  250px;
+}
+.coming{
+    height:250px;
+    width:250px;
+}
+
+.cena{
+    font-size: 20px;
+}
+
+.futer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000; 
+}
+
+.minifuter {
+    background-color: aqua;
+    text-align: center;
+    padding: 15px 0;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+}
+
+.tiktok{
+    height: 20px;
+    width: 20px;
+}
+
+
+
+
+@media (max-width: 768px) {
+    .glavennaslov {
+        font-size: 24px;
+        text-align: center;
+    }
+
+    .crtezi1 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+        padding: 0 10px;
+    }
+
+    .prvc, .vtorc, .tretc, .cetvrtc {
+        width: 100%;
+    }
+
+    .prvcc, .vtorcc, .tretcc, .cetvrtcc {
+        text-align: center;
+    }
+
+    .slika1, .slika2, .slika3, .coming {
+        width: 100%;
+        max-width: 100%;
+        height: auto;
+    }
+
+    .ime, .ime1, .ime2, .cena {
+        font-size: 16px;
+    }
+
+    .minifuter {
+        padding: 10px 0;
+    }
+
+    .tiktok {
+        width: 40px;
+        height: 40px;
+    }
+}
