@@ -55,8 +55,6 @@
     font-size: 30px;
     font-weight: 700;
 }
-
-
 .tretc{
     display:flex;
     justify-content: space-around;
@@ -79,6 +77,24 @@
     font-weight: 700;
 }
 
+.petc{
+    display:flex;
+    justify-content: space-around;
+    height:500px;
+    width:300px;
+    background-color: rgb(192, 237, 255);;
+}
+.petcc{
+    margin-top:20px;
+    background-color: white;
+    height: 250px;
+    width:  250px;
+}
+
+.ime3{
+    font-size: 30px;
+    font-weight: 700;
+}
 
 .cetvrtc{
     display:flex;
@@ -140,21 +156,21 @@
         padding: 0 10px;
     }
 
-    .prvc, .vtorc, .tretc, .cetvrtc {
+    .prvc, .vtorc, .tretc, .cetvrtc, .petc {
         width: 100%;
     }
 
-    .prvcc, .vtorcc, .tretcc, .cetvrtcc {
+    .prvcc, .vtorcc, .tretcc, .cetvrtcc, .petcc {
         text-align: center;
     }
 
-    .slika1, .slika2, .slika3, .coming {
+    .slika1, .slika2, .slika3, .coming, .slika4 {
         width: 100%;
         max-width: 100%;
         height: auto;
     }
 
-    .ime, .ime1, .ime2, .cena {
+    .ime, .ime1, .ime2, .cena, .ime3 {
         font-size: 16px;
     }
 
